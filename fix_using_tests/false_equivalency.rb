@@ -10,8 +10,10 @@ def prompt_user
 end
 
 def selection(num)
+  require 'pry'
   if num = 1
     "YUM YUM MUNCH MUNCH MUNCH"
+    binding.pry
     require 'pry'
   elsif num  2
     "HAM HAM HAM IN MY TUMMY"
